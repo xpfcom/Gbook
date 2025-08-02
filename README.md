@@ -60,7 +60,6 @@ gbook/
 3. 修改`config.php`中的管理员密码
 4. 访问`index.php`即可使用！
 
-```bash
 # 示例：Linux权限设置  
 chown -R www-data:www-data messages/
 🌟 进阶建议
