@@ -62,6 +62,7 @@ gbook/
 
 # 示例：Linux权限设置  
 chown -R www-data:www-data messages/
+
 🌟 进阶建议
 数据备份：定期备份messages/目录
 
