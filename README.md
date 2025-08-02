@@ -7,17 +7,21 @@
 </p>
 
 ## 📂 文件结构
-gbook/  
-├── index.php            # 主页面：留言展示 + 提交表单  
+gbook/
+├── data                 # 数据目录
+│     ├── .htaccess      # 自动创建（保护数据文件）
+│     ├── 20250802.json  # 自动创建的数据文件
+│     └── 20250803.json  # 自动创建的数据文件
+├── static               # 静态交互目录
+│     ├── Bg.js          # 动态背景
+│     ├── app.js         # 前端交互（字符计数、回复表单等）
+│     ├── style.css      # 完整样式（响应式设计 + 动画）
+│     └── favicon.svg    # 网站图标  
 ├── admin.php            # 管理员登录/回复/删除功能  
-├── post.php             # 处理留言提交逻辑  
 ├── config.php           # 配置文件（数据库、常量等）  
-├── app.js               # 前端交互（字符计数、回复表单等）  
-├── style.css            # 完整样式（响应式设计 + 动画）  
-├── static/              # 静态资源  
-│   ├── BlurGradientBg.js # 动态背景效果  
-│   └── favicon.svg      # 网站图标  
-└── messages/            # 留言存储目录（自动生成）
+├── index.php            # 主页面：留言展示 + 提交表单  
+├── post.php             # 处理留言提交逻辑  
+└── reply.php            # 处理回复提交逻辑
 
 ## ⚙️ 运行环境
 
