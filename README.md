@@ -1,7 +1,9 @@
 📝 PHP 留言板 (GBook)
 一个轻量、安全、美观的PHP留言板系统，支持用户留言、管理员回复、分页展示，适合个人网站或小型社区。
 
-https://img.232355.xyz/lyb.png
+<p align="center">
+  <img src="https://img.232355.xyz/lyb.png" alt="图片描述">
+</p>
 
 📂 文件结构
 bash
