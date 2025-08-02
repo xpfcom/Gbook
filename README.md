@@ -19,8 +19,6 @@ gbook/
 │   └── favicon.svg      # 网站图标  
 └── messages/            # 留言存储目录（自动生成）
 
-text
-
 ## ⚙️ 运行环境
 
 - **服务器**: Apache / Nginx (需支持PHP)
