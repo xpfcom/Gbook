@@ -64,6 +64,7 @@ gbook/
 chown -R www-data:www-data messages/
 
 🌟 进阶建议
+
 数据备份：定期备份messages/目录
 
 CDN加速：将static/托管到CDN提升加载速度
