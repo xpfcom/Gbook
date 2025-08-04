@@ -1,9 +1,9 @@
-# 📝 PHP 留言板 (GBook)
+# 📝 PHP 留言板 (PostInk)
 
 一个轻量、安全、美观的PHP留言板系统，支持用户留言、管理员回复、分页展示，适合个人网站或小型社区。
 
 <p align="center">
-  <img src="https://img.232355.xyz/lyb.png" alt="GBook留言板界面截图" width="600">
+  <img src="https://img.232355.xyz/lyb.png" alt="PostInk留言板界面截图" width="600">
 </p>
 
 ## 📂 文件结构
@@ -61,7 +61,7 @@ gbook/
 ## 🛠️ 快速部署
 
 1. 上传文件到PHP服务器
-2. 确保`messages/`目录可写（`chmod 755 messages`）
+2. 确保`data/`目录可写（`chmod 755 messages`）
 3. 修改`config.php`中的管理员密码
 4. 访问`index.php`即可使用！
 
