@@ -61,16 +61,13 @@ gbook/
 ## 🛠️ 快速部署
 
 1. 上传文件到PHP服务器
-2. 确保`data/`目录可写（`chmod 755 messages`）
+2. 确保`data/`目录可写（`chmod 755 data`）
 3. 修改`config.php`中的管理员密码
-4. 访问`index.php`即可使用！
-
-# 示例：Linux权限设置  
-chown -R www-data:www-data messages/
+4. 访问`index.php`即可！
 
 🌟 进阶建议
 
-数据备份：定期备份messages/目录
+数据备份：定期备份data/目录
 
 CDN加速：将static/托管到CDN提升加载速度
 
